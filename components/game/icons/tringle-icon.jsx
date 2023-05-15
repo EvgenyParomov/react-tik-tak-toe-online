@@ -1,6 +1,7 @@
-export function TringleIcon() {
+export function TringleIcon({ className }) {
   return (
     <svg
+      className={className}
       width="12"
       height="12"
       viewBox="0 0 12 12"
